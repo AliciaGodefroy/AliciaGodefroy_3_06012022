@@ -9,7 +9,7 @@ body{
 }
 
 /* HEADER */
-header{
+.main-header{
   box-shadow: 0 0 20px rgb(0 0 0 / 20%);
   display: flex;
   align-items: center;
@@ -19,6 +19,7 @@ header{
 .header-logo{
   font-family: 'Shrikhand', Arial;
   font-size: 35px;
+  font-weight: 100;
   text-align: center;
   margin: 0;
   padding: 15px 40px 15px 40px;
@@ -30,22 +31,134 @@ header{
   font-size: 22px;
 }
 
-/* MAIN */
-.bannière img{
+.banniere{
   width: 100%;
   object-fit: cover;
   height: 300px;
 }
 
-.description{
-  background-color: #ececec;
+/* MAIN */
+
+main{
+  background-color: #f6f6f6;
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
 }
 
-.description h2{
+.header-restaurant{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.header-restaurant h2{
   font-family: 'Shrikhand', Arial;
   font-size: 30px;
-  margin-top: 0;
-  padding: 20px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.header-restaurant i{
+  font-size: 25px;
+}
+
+.menu{
+  padding: 5px 25px;
+}
+
+.menu h2{
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  border-bottom: #99E2D0;
+}
+
+.menu article{
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.menu h3{
+  margin: 0;
+  font-weight: 500;
+}
+
+.menu p{
+  margin: 0;
+  font-weight: 200;
+  /*overflow: hidden;
+  text-overflow: ellipsis;*/
+}
+
+.menu span{
+  font-weight: 500;
+}
+
+.boutton-commander{
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.boutton-commander a{
+  border: none;
+  text-decoration: none;
+  padding: 18px;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #353535;
+  color: white;
+  height: 200px;
+}
+
+footer h3{
+  font-family: 'Shrikhand';
+  margin: 0px 20px 0px 20px;
+  padding-top: 20px;
+  font-weight: 100;
+}
+
+.footer-container{
+  margin: 20px;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+}
+
+footer li{
+  margin-bottom: 5px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer p{
+  margin: 0;
+}
+
+.footer-icons{
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons i{
+  margin-right: 10px;
 }
