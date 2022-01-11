@@ -69,6 +69,10 @@ main{
   padding: 5px 25px;
 }
 
+.menu-text{
+  width: 90%;
+}
+
 .menu h2{
   font-size: 20px;
   font-weight: 300;
@@ -118,7 +122,7 @@ main{
 
 .command-button{
   text-align: center;
-  margin: 40px 20px;
+  padding: 40px;
 }
 
 .command-button a{
