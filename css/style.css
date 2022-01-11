@@ -94,7 +94,7 @@ header{
   margin-right: 15px;
 }
 
-.fonctionnement .card-color{
+.fonctionnement .fonctionnement__color{
   background-color: #f5edff;
 }
 
@@ -111,7 +111,7 @@ header{
   border-radius: 15px 15px 0 0;
 }
 
-.restaurants .restaurants-cards{
+.restaurants .restaurants-preview{
   text-decoration: none;
   background-color: white;
   border-radius: 15px;
@@ -137,22 +137,22 @@ header{
   margin-top: 0;
 }
 
-.restaurants-cards{
+.restaurants-preview{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
 }
 
-.restaurants-cards figcaption{
+.restaurants-preview figcaption{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 10px 10px 0 10px;
 }
 
-.restaurants-cards i{
+.restaurants-preview i{
   font-size: 25px;
 }
 
-.tag-nouveau1{
+.restaurants-preview__tag1{
   background-color: #99E2D0;
   color:#3b8468;
   font-weight: 500;
@@ -163,7 +163,7 @@ header{
   right: 2rem;
 }
 
-.tag-nouveau2{
+.restaurants-preview__tag2{
   background-color: #99E2D0;
   color:#3b8468;
   font-weight: 500;
@@ -211,11 +211,11 @@ footer p{
   margin: 0;
 }
 
-.footer-icons{
+.footer-container__icons{
   display: flex;
   align-items: center;
 }
 
-.footer-icons i{
+.footer-container__icons i{
   margin-right: 10px;
 }

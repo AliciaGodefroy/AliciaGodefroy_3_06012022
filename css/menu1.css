@@ -9,14 +9,14 @@ body{
 }
 
 /* HEADER */
-.main-header{
+.header{
   box-shadow: 0 0 20px rgb(0 0 0 / 20%);
   display: flex;
   align-items: center;
   justify-content: center;
   }
 
-.header-logo{
+.header__logo{
   font-family: 'Shrikhand', Arial;
   font-size: 35px;
   font-weight: 100;
@@ -41,25 +41,27 @@ body{
 
 main{
   background-color: #f6f6f6;
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -50px;
+  position: relative;
 }
 
-.header-restaurant{
+.menu-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px;
 }
 
-.header-restaurant h2{
+.menu-header h2{
   font-family: 'Shrikhand', Arial;
   font-size: 30px;
   font-weight: 100;
   margin: 0;
 }
 
-.header-restaurant i{
+.menu-header i{
   font-size: 25px;
 }
 
@@ -75,7 +77,7 @@ main{
   margin: 0;
 }
 
-.souligement-h2{
+.menu-underline{
   width: 15%;
   height: 3.5px;
   background-color: #99E2D0;
@@ -106,7 +108,7 @@ main{
   white-space: nowrap;
 }
 
-.overflow-ellipsis{
+.menu-overflow__ellipsis{
   text-overflow: ellipsis;
 }
 
@@ -114,12 +116,12 @@ main{
   font-weight: 500;
 }
 
-.boutton-commander{
+.command-button{
   text-align: center;
   margin: 40px 20px;
 }
 
-.boutton-commander a{
+.command-button a{
   border: none;
   text-decoration: none;
   padding: 15px 45px;
@@ -167,11 +169,11 @@ footer p{
   margin: 0;
 }
 
-.footer-icons{
+.footer-container__icons{
   display: flex;
   align-items: center;
 }
 
-.footer-icons i{
+.footer-container__icons i{
   margin-right: 10px;
 }
