@@ -67,7 +67,7 @@ header{
   padding: 18px;
   border-radius: 35px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   color: white;
   background-image: linear-gradient(#FF79DA, #9356DC);
 }
@@ -92,6 +92,10 @@ header{
 
 .fonctionnement li i{
   margin-right: 15px;
+}
+
+.fonctionnement .card-color{
+  background-color: #f5edff;
 }
 
 /* Restaurants */
@@ -146,6 +150,28 @@ header{
 
 .restaurants-cards i{
   font-size: 25px;
+}
+
+.tag-nouveau1{
+  background-color: #99E2D0;
+  color:#3b8468;
+  font-weight: 500;
+  padding : 10px;
+  border-radius: 1px;
+  position: absolute;
+  top: 53.5rem;
+  right: 2rem;
+}
+
+.tag-nouveau2{
+  background-color: #99E2D0;
+  color:#3b8468;
+  font-weight: 500;
+  padding : 10px;
+  border-radius: 1px;
+  position: absolute;
+  top: 70.5rem;
+  right: 2rem;
 }
 
 /* FOOTER */
