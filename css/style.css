@@ -94,7 +94,11 @@ header{
   margin-right: 15px;
 }
 
-.fonctionnement .fonctionnement__color{
+li::marker{
+  background-color: #FF79DA;
+}
+
+.fonctionnement .fonctionnement--color{
   background-color: #f5edff;
 }
 
@@ -104,14 +108,14 @@ header{
   background-color: #f6f6f6;
 }
 
-.restaurants div a figure img{
+.restaurants__preview img{
   height: 180px;
   width: 100%;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
 
-.restaurants .restaurants-preview{
+.restaurants .restaurants__preview{
   text-decoration: none;
   background-color: white;
   border-radius: 15px;
@@ -137,22 +141,22 @@ header{
   margin-top: 0;
 }
 
-.restaurants-preview{
+.restaurants__preview{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
 }
 
-.restaurants-preview figcaption{
+.restaurants__preview figcaption{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 10px 10px 0 10px;
 }
 
-.restaurants-preview i{
+.restaurants__preview i{
   font-size: 25px;
 }
 
-.restaurants-preview__tag1{
+.restaurants__tag1{
   background-color: #99E2D0;
   color:#3b8468;
   font-weight: 500;
@@ -163,7 +167,7 @@ header{
   right: 2rem;
 }
 
-.restaurants-preview__tag2{
+.restaurants__tag2{
   background-color: #99E2D0;
   color:#3b8468;
   font-weight: 500;
