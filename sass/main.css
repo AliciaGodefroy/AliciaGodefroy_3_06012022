@@ -65,18 +65,6 @@ body {
   margin-top: 0;
 }
 
-.description a {
-  border: none;
-  text-decoration: none;
-  padding: 18px;
-  border-radius: 35px;
-  font-size: 18px;
-  font-weight: 500;
-  color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background-image: linear-gradient(#FF79DA, #9356DC);
-}
-
 /* Fonctionnement */
 .fonctionnement {
   padding: 20px;
@@ -133,7 +121,8 @@ body {
   margin-right: 20px;
 }
 
-.fonctionnement__action--color {
+/* problème à régler (insertion dans le nesting)*/
+.fonctionnement .fonctionnement__action--color {
   background-color: #f5edff;
 }
 
@@ -405,6 +394,18 @@ body {
   border-radius: 35px;
   font-size: 18px;
   font-weight: bold;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+.description a {
+  border: none;
+  text-decoration: none;
+  padding: 18px;
+  border-radius: 35px;
+  font-size: 18px;
+  font-weight: 500;
   color: white;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-image: linear-gradient(#FF79DA, #9356DC);

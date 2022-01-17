@@ -21,7 +21,7 @@
     }
   }
   &__number{
-    background-color: #9356DC;
+    background-color: $color-primary;
     color: white;
     height: 25px;
     width: 25px;
@@ -33,9 +33,9 @@
     margin-left: -25px;
     margin-right: 20px;
   }
-  &__action{
-    &--color{
-      background-color: #f5edff;
-    }
-  }
+}
+
+/* problème à régler (insertion dans le nesting)*/
+.fonctionnement .fonctionnement__action--color{
+  background-color: #f5edff;
 }

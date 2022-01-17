@@ -1,13 +1,11 @@
-.command-button{
-  text-align: center;
-  padding: 40px;
+.description{
   a{
     border: none;
     text-decoration: none;
-    padding: 15px 45px;
+    padding: 18px;
     border-radius: 35px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     color: white;
     background-image: linear-gradient($color-secondary, $color-primary);
   }
