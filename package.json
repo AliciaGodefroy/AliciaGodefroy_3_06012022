@@ -1,0 +1,22 @@
+{
+  "name": "p3_godefroy_alicia",
+  "version": "1.0.0",
+  "description": "OpenClassroom P3 - Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaGodefroy/AliciaGodefroy_3_06012022.git"
+  },
+  "author": "Alicia Godefroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliciaGodefroy/AliciaGodefroy_3_06012022/issues"
+  },
+  "homepage": "https://github.com/AliciaGodefroy/AliciaGodefroy_3_06012022#readme",
+  "dependencies": {
+    "sass": "^1.48.0"
+  }
+}

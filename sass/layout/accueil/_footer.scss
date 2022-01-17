@@ -1,0 +1,41 @@
+/* FOOTER */
+
+.footer{
+  background-color: #353535;
+  color: white;
+  height: 200px;
+  h3{
+    font-family: 'Shrikhand';
+    font-weight: 100;
+    margin: 0px 20px 0px 20px;
+    padding-top: 20px;      
+  }
+
+  &__container{
+    margin: 20px;
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+    li{
+      margin-bottom: 5px;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      margin-bottom: 10px;
+    }
+    p{
+      margin: 0;
+    }
+  }
+  
+  &__withicons{
+    display: flex;
+    align-items: center;
+    i{
+      margin-right: 10px;
+    }
+  }
+}
+
