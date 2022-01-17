@@ -1,0 +1,50 @@
+/* MENU */
+
+.menu{
+  padding: 5px 25px;
+  h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: #99E2D0;
+    margin: 0;
+  }
+  &__underline{
+    width: 15%;
+    height: 3.5px;
+    background-color: #99E2D0;
+    margin-bottom: 15px;
+  }
+  article{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  &__text{
+    width: 90%;
+    h3{
+      margin: 0;
+      font-weight: 500;
+    }
+    p{
+      margin: 0;
+      font-weight: 200;
+      width: 90%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+  &__overflow{
+    &--ellipsis{
+      text-overflow: ellipsis;
+    }
+  }
+  span{
+    font-weight: 500;
+  }
+}

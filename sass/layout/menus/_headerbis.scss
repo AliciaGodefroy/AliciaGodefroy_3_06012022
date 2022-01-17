@@ -1,0 +1,31 @@
+/* PAGES DE RESTAURANTS */
+
+/* HEADER */
+
+.body-menus{
+  .header{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo{
+      font-family: 'Shrikhand', Arial;
+      font-size: 35px;
+      font-weight: 100;
+      text-align: center;
+      margin: 0;
+      padding: 15px 40px 15px 40px;
+    }
+    .fa-arrow-left{
+      color: black;
+      text-decoration: none;
+      font-size: 22px;
+    }
+  }
+}
+
+.banniere{
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}

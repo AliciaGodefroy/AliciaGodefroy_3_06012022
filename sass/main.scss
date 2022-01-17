@@ -1,8 +1,13 @@
-@import "./utils/accueil/variables";
-@import "./base/accueil/base";
+@import "./utils/variables";
+@import "./base/base";
 @import "./layout/accueil/header";
 @import "./layout/accueil/localisation";
 @import "./layout/accueil/description";
 @import "./layout/accueil/fonctionnement";
 @import "./layout/accueil/restaurants";
 @import "./layout/accueil/footer";
+@import "./layout/menus/headerbis";
+@import "./layout/menus/mainmenus";
+@import "./layout/menus/headermenu";
+@import "./layout/menus/menu";
+@import "./components/command-button";

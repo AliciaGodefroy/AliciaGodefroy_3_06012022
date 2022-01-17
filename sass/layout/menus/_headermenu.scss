@@ -1,0 +1,17 @@
+/* Header - Nom du restaurant */
+
+.menu-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  h2{
+    font-family: 'Shrikhand', Arial;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+  }
+  i{
+    font-size: 25px;
+  }
+}

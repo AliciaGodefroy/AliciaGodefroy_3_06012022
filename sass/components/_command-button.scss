@@ -1,0 +1,14 @@
+.command-button{
+  text-align: center;
+  padding: 40px;
+  a{
+    border: none;
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+  }
+}
