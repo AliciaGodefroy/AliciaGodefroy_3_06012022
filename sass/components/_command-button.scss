@@ -9,6 +9,13 @@
     font-size: 18px;
     font-weight: bold;
     color: white;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+    cursor: pointer;
+    transition-duration: .30s;
     background-image: linear-gradient($color-secondary, $color-primary);
+    &:hover{
+      background-image: linear-gradient($color-secondary-light, $color-primary-light);
+      box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 10px 0px;
+    }
   }
 }

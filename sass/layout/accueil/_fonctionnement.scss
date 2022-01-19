@@ -4,6 +4,10 @@
   ol{
     list-style: none;
     padding-left: 0;
+    @media screen and (min-width: 992px) {
+      display: flex;
+      justify-content: center;
+    }
     li{
       display: flex;
       align-items: center;
@@ -17,6 +21,9 @@
       }
       i{
         margin-right: 15px;
+      }
+      @media screen and (min-width: 992px) {
+        width: 30%;
       }
     }
   }

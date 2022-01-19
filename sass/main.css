@@ -7,6 +7,13 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 992px) {
+  .container {
+    width: 1350px;
+    margin: auto;
+  }
+}
+
 /* HEADER */
 .header {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.137);
@@ -75,6 +82,17 @@ body {
   padding-left: 0;
 }
 
+@media screen and (min-width: 992px) {
+  .fonctionnement ol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .fonctionnement ol li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,6 +114,12 @@ body {
 
 .fonctionnement ol li i {
   margin-right: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .fonctionnement ol li {
+    width: 30%;
+  }
 }
 
 .fonctionnement__number {
@@ -141,6 +165,12 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 992px) {
+  .restaurants__preview {
+    width: 48%;
+  }
+}
+
 .restaurants__preview figure {
   margin: 0;
   position: relative;
@@ -184,6 +214,14 @@ body {
 
 .restaurants__preview i {
   font-size: 25px;
+  cursor: pointer;
+  -webkit-transition: 450ms;
+  transition: 450ms;
+}
+
+.restaurants__preview i:hover {
+  font-weight: bold;
+  color: #9356DC;
 }
 
 .restaurants__tag {
@@ -195,6 +233,18 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+@media (min-width: 992px) {
+  .restaurants__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 /* FOOTER */
@@ -353,12 +403,23 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px;
   margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.menu article:hover .menu__check i {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .menu article {
+    width: 100%;
+  }
 }
 
 .menu__text {
   width: 90%;
+  padding: 15px;
 }
 
 .menu__text h3 {
@@ -380,6 +441,30 @@ body {
 
 .menu span {
   font-weight: 500;
+  padding: 15px;
+}
+
+.menu__check {
+  color: white;
+}
+
+.menu__check i {
+  background-color: #99E2D0;
+  padding: 25.1px;
+  font-size: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-right: -80px;
+}
+
+@media screen and (min-width: 992px) {
+  .container-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .command-button {
@@ -395,8 +480,20 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+          box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+  cursor: pointer;
+  -webkit-transition-duration: .30s;
+          transition-duration: .30s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+.command-button a:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa91de), to(#9e6cd9));
+  background-image: linear-gradient(#fa91de, #9e6cd9);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 10px 0px;
+          box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 10px 0px;
 }
 
 .description a {
@@ -407,7 +504,19 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+          box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 10px 0px;
+  cursor: pointer;
+  -webkit-transition-duration: .30s;
+          transition-duration: .30s;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+.description a:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa91de), to(#9e6cd9));
+  background-image: linear-gradient(#fa91de, #9e6cd9);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 10px 0px;
+          box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 10px 0px;
 }
 /*# sourceMappingURL=main.css.map */

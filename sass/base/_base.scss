@@ -3,6 +3,13 @@
 
 /* GÉNÉRAL */
 body{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+  .container{
+    width: 1350px;
+    margin:auto;
+  }
 }
