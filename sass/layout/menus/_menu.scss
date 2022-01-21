@@ -2,6 +2,12 @@
 
 .menu{
   padding: 5px 25px;
+  @media screen and (min-width: 992px) {
+    padding: 5px 20px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 20%;
+  }
   h2{
     font-size: 20px;
     font-weight: 300;
@@ -21,22 +27,40 @@
     border-radius: 20px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     margin-bottom: 15px;
     overflow: hidden;
-    &:hover .menu__check i{
+    animation-fill-mode: both;
+    &:hover .menu__check{
+      transition: margin-right 0.5s;
       margin-right: 0;
+    }
+    &:hover .menu__check i{
+      animation: quarter-spin 0.5s ease-in-out;
     }
     @media screen and (min-width: 992px) {
       width: 100%;
     }
   }
   &__text{
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 20%;
     padding: 15px;
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 100%;
+    }
+    @media screen and (min-width: 992px) {
+      width: 82%;
+      min-width: 20%;
+      max-width: 100%;
+    }
     h3{
       margin: 0;
       font-weight: 500;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
     p{
       margin: 0;
@@ -44,6 +68,7 @@
       width: 90%;
       overflow: hidden;
       white-space: nowrap;
+      text-overflow: ellipsis;
     }
   }
   &__overflow{
@@ -51,19 +76,20 @@
       text-overflow: ellipsis;
     }
   }
-  span{
+  &__price{
     font-weight: 500;
-    padding: 15px;
+    padding: 5px;
+    margin: 0 20px 10px 0;
   }
   &__check{
     color: white;
+    background-color: $color-tertiary;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: -85px;
     i{
-      background-color: $color-tertiary;
       padding: 25.1px;
-      font-size: 20px;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      margin-right: -80px;
+      font-size: 25px;
     }
   }
 }

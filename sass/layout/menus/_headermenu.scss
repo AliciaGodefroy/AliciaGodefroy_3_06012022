@@ -13,5 +13,11 @@
   }
   i{
     font-size: 25px;
+    cursor: pointer;
+      transition: 450ms;
+      &:hover{
+        font-weight: bold;
+        color: $color-primary;
+      }
   }
 }

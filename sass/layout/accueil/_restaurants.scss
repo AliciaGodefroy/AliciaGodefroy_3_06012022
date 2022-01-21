@@ -30,6 +30,7 @@
       justify-content: space-between;
       align-items: flex-start;
       padding: 10px 10px 0 10px;
+      position: relative;
     }
     h3{
       margin-bottom: 2px;
@@ -42,11 +43,6 @@
     i{
       font-size: 25px;
       cursor: pointer;
-      transition: 450ms;
-      &:hover{
-        font-weight: bold;
-        color: $color-primary;
-      }
     }
   }
   &__tag{
@@ -64,6 +60,30 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+    }
+  }
+  &__heart{
+    &--empty{
+      position: absolute;
+      right: 20px;
+      &:hover{
+        display: none;
+      }
+    }
+    &--filled{
+      position: absolute;
+      right: 20px;
+      opacity: 0;
+      &:hover{
+        opacity: 1;
+        transition: opacity 1s;
+        background: -webkit-linear-gradient($color-secondary, $color-primary);
+        background: linear-gradient($color-secondary, $color-primary);
+        background: -webkit-gradient(color-secondary, $color-primary);
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
   }
 }
