@@ -1,0 +1,29 @@
+.restaurants{
+  &__hearts{
+    position: relative;
+    
+    i{
+      position: absolute;
+      top: 0;
+      right: 0;
+      &.fas{
+        opacity: 0; 
+        z-index: 1; 
+        background: linear-gradient($color-secondary, $color-primary);
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    &:hover{
+      i.far{
+        opacity: 0; 
+        transition: opacity 1s;
+      }
+      i.fas{
+        opacity: 1;
+        transition: opacity 1s;
+      }
+    }
+  }
+}

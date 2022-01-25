@@ -27,12 +27,12 @@
     border-radius: 20px;
     display: flex;
     align-items: flex-end;
-    /*justify-content: space-between;*/
+    animation: appear 2s;
     margin-bottom: 15px;
     overflow: hidden;
     animation-fill-mode: both;
     &:hover .menu__check{
-      transition: margin-right 0.5s;
+      transition: margin-right 0.7s;
       margin-right: 0;
     }
     &:hover .menu__check i{
@@ -91,6 +91,15 @@
       padding: 25.1px;
       font-size: 25px;
     }
+  }
+  .delay-1{
+    animation-delay: .5s;
+  }
+  .delay-2{
+    animation-delay: 1s;
+  }
+  .delay-3{
+    animation-delay: 1.5s;
   }
 }
 

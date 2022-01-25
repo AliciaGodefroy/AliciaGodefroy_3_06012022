@@ -62,28 +62,4 @@
       justify-content: space-around;
     }
   }
-  &__heart{
-    &--empty{
-      position: absolute;
-      right: 20px;
-      &:hover{
-        display: none;
-      }
-    }
-    &--filled{
-      position: absolute;
-      right: 20px;
-      opacity: 0;
-      &:hover{
-        opacity: 1;
-        transition: opacity 1s;
-        background: -webkit-linear-gradient($color-secondary, $color-primary);
-        background: linear-gradient($color-secondary, $color-primary);
-        background: -webkit-gradient(color-secondary, $color-primary);
-        background-clip: content-box;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-  }
 }
